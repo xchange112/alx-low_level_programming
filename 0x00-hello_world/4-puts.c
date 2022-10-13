@@ -1,4 +1,4 @@
-# ! / bin/ bash
+#! / bin/ bash
 #include<stdio.h>
 int main(void) {
 	/*print the following word to the output*/

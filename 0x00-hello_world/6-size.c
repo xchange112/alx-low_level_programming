@@ -1,18 +1,14 @@
 #include<stdio.h>
 /**
  * main- Start point
- * Return: End point 
+ * Return: End point
  */
 int main(void)
 {
-	int integerType;
-	float floatType;
-	double doubleType;
-	char charType;
-
-	printf("Size of a char: %ld bytes\n", sizeof(charType));
-	printf("Size of an int: %ld bytes\n", sizeof(integerType));
-	printf("Size of double: %ld bytes\n", sizeof(doubleType));
-	printf("Size of float: %ld bytes\n", sizeof(floatType));
+	printf("Size of a char: %ld byte(s)\n", sizeof(char));
+	printf("Size of an int: %ld byte(s)\n", sizeof(int));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %ld byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %ld byte(s)\n", sizeof(float));
 	return (0);
 }

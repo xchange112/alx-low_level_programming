@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * isupper - function that checks for uppercase letter
  * @c: int type number
@@ -14,5 +14,4 @@ int _isupper(int c)
 		return (1);
 	else
 		return (0);
-
 }

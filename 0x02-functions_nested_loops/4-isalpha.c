@@ -1,13 +1,9 @@
 #include "main.h"
 /**
- * main - check the code.
- *_isalpha; RETURNS 1 if true else returns 0.
- * Return: Always 0.
+ *_isalpha - check if character is an alphabet
+ * @c: type int character
+ * Return: 1 if letter, lowercase or uppercase, and 0 otherwise
  */
-int main(void)
-{
-	int _isalpha(int c);
-}
 int _isalpha(int c)
 {
 	/*This will check if the input is an alphabet*/

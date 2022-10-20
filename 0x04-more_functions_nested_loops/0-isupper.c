@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 /**
  * isupper - function that checks for uppercase letter
  * @c: int type number

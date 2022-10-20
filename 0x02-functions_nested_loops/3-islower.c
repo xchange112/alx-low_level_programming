@@ -4,10 +4,6 @@
  *
  * Return: Always 0
  */
-int main(void)
-{
-	int _islower();
-}
 int _islower(int c)
 {
 	/*This will tell if a character is in it's lowercase

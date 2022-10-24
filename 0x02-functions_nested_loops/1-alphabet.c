@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
   * print_alphabet - print all english alphabets
@@ -8,14 +8,14 @@
   */
 void print_alphabet(void)
 {
-	int ascii_a = 97;
-	int i;
+	char a = 'a';
 
-	for (i = 0; i < 26; i++)
+	for (a; a <= 'z'; a++)
 	{
-		putchar(ascii_a + i);
+		_putchar(a);
 	}
 
-	putchar('\n');
+	_putchar('\n');
+	return (0);
 
 }
